@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: travels
+  description: Deploys travels application and supporting components
+  labels:
+    app: travels
+  tags:
+    - application
+    - example
+    - service mesh
+    - travels
+spec:
+  type: website
+  lifecycle: production
+  owner: ssa-team
